@@ -1,0 +1,11 @@
+---
+title: "Google Flu"
+---
+
+### Big Data Analytics Pitfalls
+
+Big data analytics holds significant promise, but it also presents key pitfalls. One major challenge is data quality and representativeness. Large datasets often contain missing or noisy data, leading to inaccurate predictions. Additionally, bias can creep in when data is collected from unrepresentative sources, skewing the insights drawn from it. Another pitfall is interpretability: complex models may produce outputs that are difficult to understand, making it hard to derive actionable insights. Lastly, over-reliance on algorithms can lead to overconfidence in results, especially when the data fails to capture nuances in real-world phenomena, such as shifting behaviors or unexpected outliers
+
+### Overfitting and Parametrization
+
+Overfitting is a critical issue in data modeling, particularly when working with big data. It occurs when a model becomes overly complex, fitting not only the underlying trend in the data but also the noise. This reduces the model's ability to generalize to new, unseen data, leading to poor performance in real-world applications. Over-parametrization, where too many parameters are used in a model, exacerbates this problem by increasing the risk of overfitting. This can lead to high accuracy on training data but poor accuracy on test data. Effective model validation techniques like cross-validation and penalization methods are necessary to mitigate overfitting​(
